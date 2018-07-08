@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: The Sellout 
 header-img: img/home-bg.png
 email: kjewettwilliams@gmail.com
 copyright_name: kjdub01
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A nonprofit professional's journey to tech
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kjdub01
