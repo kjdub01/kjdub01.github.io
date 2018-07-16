@@ -5,9 +5,8 @@ date:       2018-07-16 00:33:28 -0400
 permalink:  for_starters
 ---
 
-
-## “I keep turning over new leaves, and spoiling them, as I used to spoil my copybooks; and I make so many beginnings there never will be an end."
-## - Louisa May Alcott
+“I keep turning over new leaves, and spoiling them, as I used to spoil my copybooks; and I make so many beginnings there never will be an end."
+ - Louisa May Alcott
 
 When I was small I loved science and being outside. I loved catching toads in my backyard, playing with rocks, playing soccer and softball, but I really loved robots. I took apart almost every electronic toy I had to try and figure out how it worked. I did my science fair project on battery life, to figure out which brand of battery actually lasted longer. (It was Duracell, by the way, and you bet my brand loyalty was determined by what could power my build-your-own robot the longest.)
 
