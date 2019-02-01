@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Fruit Trees Sinatra App"
-date:       2019-02-01 18:47:29 +0000
+date:       2019-02-01 13:47:30 -0500
 permalink:  fruit_trees_sinatra_app
 ---
 
@@ -65,21 +65,33 @@ In catching that rollback transaction, I can then check the errors on the instan
 
 ```
 >> homeowner.errors
-=> #<ActiveModel::Errors:0x007fc7bcd02588 @base=#<Homeowner id: nil, first_name: nil, last_name: nil, email: nil, password_digest: nil, created_at: nil, updated_at: nil>, @messages={:password=>["can't be blank"], :first_name=>["can't be blank"], :last_name=>["can't be blank"], :email=>["can't be blank"]}>
+=> #<ActiveModel::Errors:0x007fc7bcd02588 
+@base=#<Homeowner id: nil, first_name: nil, last_name: nil,
+email: nil, password_digest: nil, created_at: nil, updated_at: nil>,
+@messages={:password=>["can't be blank"],
+:first_name=>["can't be blank"], 
+:last_name=>["can't be blank"], 
+:email=>["can't be blank"]}>
 ```
 
 To expose just the messages and not the object I use the full_messages method
 
 ```
 >> homeowner.errors.full_messages
-=> ["Password can't be blank", "First name can't be blank", "Last name can't be blank, Email can't be blank"]
+=> ["Password can't be blank", 
+"First name can't be blank", 
+"Last name can't be blank", 
+Email can't be blank"]
 ```
 
 and then to use those with Flash I need to extract them from the array with the to_sentence method which gives me a string.
 
 ```
 >> homeowner.errors.full_messages.to_sentence
-=> "Password can't be blank, First name can't be blank, Last name can't be blank, and Email can't be blank"
+=> "Password can't be blank, 
+First name can't be blank, 
+Last name can't be blank, 
+and Email can't be blank"
 ```
 
 I'm also validating the uniqueness of the email attribute so that a homeowner can't sign up twice with the same email. In this example I've already used the email kate@me.org for a homeowner.
