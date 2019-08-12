@@ -1,15 +1,14 @@
 # Site settings
-title: The Sellout 
+author: Kate Jewett Williams
+title: kjdub01.github.io
 header-img: img/home-bg.png
 email: kjewettwilliams@gmail.com
-copyright_name: kjdub01
+copyright_name: Kate Jewett Williams
 description: > # this means to ignore newlines until "baseurl:"
-  A nonprofit professional's journey to tech
+   
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username: kjdub01
 github_username:  kjdub01
-learn_profile: kjdub01
-email_username: kjewettwilliams@gmail.com
 
 # Build settings
 markdown: kramdown
