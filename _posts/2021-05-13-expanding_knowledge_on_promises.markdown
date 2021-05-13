@@ -72,6 +72,6 @@ because the .catch() with handle the errors from save and handleSuccess.[2]
 * Always use .catch() at then end of your chains, unless you need to know sooner about a rejected promise
 
 
-1[](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261) 
-2 [](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-3 [](https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/)
+1. [](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261) 
+2. [](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+3. [](https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/)
