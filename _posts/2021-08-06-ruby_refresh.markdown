@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ruby Refresh"
-date:       2021-08-06 06:00:06 +0000
+date:       2021-08-06 02:00:07 -0400
 permalink:  ruby_refresh
 ---
 
@@ -52,8 +52,8 @@ To do this i made another class called dates and then scrapped the dates from th
   def save 
     @@all << self
   end
-end
-```
+end```
+
 ```
 class RugbyGames::Scraper
   BASE_URL = "http://www.espn.com"
